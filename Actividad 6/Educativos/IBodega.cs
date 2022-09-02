@@ -7,8 +7,8 @@ using Actividad_6.Entities;
 
 namespace Actividad_6.Educativos
 {
-    internal interface IEscuela<T> where T : Entity
+    internal interface IBodega<T> where T : Entity
     {
-        public void Matricular(T obj);
+        public void Registrar(T obj);
     }
 }

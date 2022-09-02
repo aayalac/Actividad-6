@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Actividad_6.Entities
 {
-    internal class Estudiante : Entity
+    internal class Servicio
     {
-        
-        public string Direccion { get; set; }
+        public string OrdenServicio { get; set; }
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Actividad_6.Entities
 {
-    internal class Trabajador : Entity
+    internal class Producto : Entity
     {
-        public string DireccionTrabajo { get; set; }
+        public string CodigoBarras { get; set; }
     }
 }
