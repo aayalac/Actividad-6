@@ -8,6 +8,7 @@ namespace Actividad_6.Entities
 {
     internal class Estudiante : Entity
     {
+        
         public string Direccion { get; set; }
     }
 }
