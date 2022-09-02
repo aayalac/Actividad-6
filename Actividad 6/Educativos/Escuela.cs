@@ -11,8 +11,14 @@ namespace Actividad_6.Educativos
     {
         private List<T> Matriculados { get; set; }
 
+        public Escuela()
+        {
+           Matriculados = new List<T>();
+        }
+
         public void Matricular(T obj)
         {
+            
             obj.Id = "123";
 
             Matriculados.Add(obj);
